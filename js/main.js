@@ -1,3 +1,6 @@
+var scroll = new SmoothScroll('a[href*="#"]', {
+    speed: 500
+  });
 const counters = document.querySelectorAll('.counter');
 const speed = 2000;
 
