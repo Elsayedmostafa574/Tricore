@@ -1,0 +1,560 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+.navHeader{
+    background-color: #2d343e;
+    color: #cacccf;
+    
+}
+.navHeader .infoRegister{
+    float: right;
+}
+.navHeader label{
+    margin-right: 20px;
+}
+nav .navbar-brand{
+    font-size: 30px;
+    font-weight: 900;
+    transition: all .3s;
+}
+nav .navbar-brand span{
+    color: #ed164f; font-size: 40px;
+    transition: all .3s;
+}
+nav .navbar-brand:hover{
+    color: #ed164f !important;
+}
+nav .navbar-brand:hover  span{
+    color: black !important;
+}
+nav .nav-link{
+    font-weight: 600;
+   transition: all .3s;
+}
+nav .nav-link:hover{
+    color: #ed164f !important;
+}
+nav .nav-item{
+    margin-left: 20px;
+  
+}
+
+.home{
+    position: relative;
+}
+.home .carousel-item img{
+    height: 80vh;
+}
+
+.home .HomeContent{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
+    color: white;
+    text-align: center;
+}
+.home .HomeContent h1{
+    font-weight: 900;
+    font-size: 40px;
+    line-height: 84px;
+}
+.home .HomeContent p{
+    font-size: 18px;
+    line-height: 28px;
+}
+.home .HomeContent .btn1{
+    border-radius: 20px;
+    padding: 10px 30px;
+    background-color: transparent;
+    color: white;
+    border: 2px white solid;
+    transition: all .3s;
+}
+.home .HomeContent .btn1:hover{
+   
+    border-radius: 20px;
+    background-color: #ed164f;
+    color: white;
+    border: 2px #ed164f solid;
+}
+.home .HomeContent .btn2{
+    margin-left: 10px;
+    padding: 10px 35px;
+    border-radius: 20px;
+    background-color: #ed164f;
+    color: white;
+    border: 2px #ed164f solid;
+    transition: all .3s;
+}
+.home .HomeContent .btn2:hover{
+    border-radius: 20px;
+   
+    background-color: transparent;
+    color: white;
+    border: 2px white solid;
+}
+@media (max-width: 1000px){
+    .home .carousel-item img{
+        height: 100vh;
+    }
+    .home .HomeContent h1{
+        font-size: 20px;
+        line-height: 42px;
+    }
+    .home .HomeContent p{
+        font-size: 14px;
+        list-style: 14px;
+    }
+    .home .HomeContent .btn1, .home .HomeContent .btn2{
+        font-size: 10px;
+        margin-left: 1px;
+        padding: 5px 15px;
+    }
+}
+.about .col-md-6{
+    margin: 100px auto;
+}
+.about .col-md-6 h4, .about .col-md-6 p{
+    color: rgb(146, 143, 143);
+}
+.about .col-md-6 h2{
+    font-weight: 600;
+}
+.about .btn3{
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 10px 30px;
+    background-color: transparent;
+    color: #ed164f;
+    border: 4px #ed164f solid;
+}
+.about .AboutImg img{
+    width: 100%;
+  
+}
+.about2{
+    background-color: rgb(214, 211, 211);
+}
+.about2 h2{
+    color: #ed164f;
+    font-weight: 600;
+}
+.about2 .row{
+    display: flex;
+    align-items: center;
+}
+
+.about2 img{
+    width: 100%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.about2 span{
+    font-weight: 600;
+}
+.title{
+  
+    text-align: center;
+  
+}
+.title h1{
+  
+    margin-bottom: 30px;
+    font-weight: 600;
+}
+.line{
+    margin: auto;
+    width: 100px;
+    height: 4px;
+    background-color: #ed164f;
+}
+.title p{
+    
+
+text-align: center;
+    margin-top: 30px;
+    font-weight: 600;
+    color: rgb(146, 143, 143);
+}
+.services{
+    padding-top: 100px;
+}
+.services .card{
+    text-align: center;
+    margin-top: 40px;
+    transition: all .3s;
+
+}
+.services .card:hover{
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+.services .card h2{
+    font-weight: 600;
+}
+.services .card p{
+    color: rgb(146, 143, 143);
+    font-weight: 600;
+}
+.services .imo{
+    color: #ed164f;
+    font-size: 40px;
+    margin: 30px auto;
+    transition: all 0.3s;
+}
+.circle{
+    width: 40%;
+    margin: 20px auto;
+    border-radius: 50%;
+    padding: 10px;
+    border: 1px solid rgb(107, 106, 106);
+    transition: all .3s;
+}
+.services .card:hover .circle{
+    background-color: #ed164f;
+    border: 1px solid #ed164f;
+}
+.services .card:hover .imo{
+    color: white;
+}
+.portfolio{
+    padding-top: 100px;
+}
+.portfolio .port{
+    position: relative;
+    height: 60vh;
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    background-size: 100% 100%;
+    background-image: url(../img/bg-home.jpg);
+    color: #fff;
+}
+.portfolio .port .InfoPort{
+    width: 100%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.portfolio .port .InfoPort button{
+    padding: 10px 30px;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    background-color: transparent;
+    transition: all 0.3s;
+}
+.portfolio .port .InfoPort button:hover{
+    border: 2px solid #ed164f;
+    background-color: #ed164f;
+}
+.team{
+    padding-top: 100px;
+    margin: 100px auto;
+}
+.team .card{
+    height: 300px;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+
+}
+.team .card img{
+    height: 100%;
+    border-radius: 10px;
+    
+}
+
+.team .card .back{
+
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: rgba(87, 86, 85, 0.8);
+    color: white;
+    transition: all 1s;
+    padding-top: 100px;
+    position: absolute;
+    
+    left: 100%;
+    
+}
+.team .card:hover  .back{
+   
+    left: 0;
+}
+
+.team .card .imo2{
+   transition: all 0.3s;
+}
+.team .card .imo2:hover{
+    color: #ed164f;
+}
+.facts{
+    padding-top: 50px;
+  padding-bottom: 50px;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)),url(../img/bg-facts.jpg);
+    background-size: 100% 100%;   
+}
+.facts .title{
+
+    color: #fff;
+}
+
+.facts .title p{
+    text-align: center;
+    color: rgb(241, 240, 240);
+}
+
+.facts .card{
+    height: 250px;
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+    background-color: transparent;
+    border: 1px solid #fff;
+  
+   position: relative;
+   transition: all .3s;
+}
+.facts .card .InfoFact{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}.facts .card:hover{
+    background-color: #ed164f;
+    border: #ed164f solid 1px;
+}
+.skills{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: linear-gradient(rgba(238, 237, 237, 0.8),rgba(238, 237, 237, 0.8)),url(../img/bg-skills.jpg);
+    background-size: 100% 100%;
+}
+.skills .col-md-6{
+    padding-top: 30px;
+}
+.skills .progress{
+    
+    background-color: #5e5b5b;
+}
+.skills .progress .progress-bar{
+    background-color: #ed164f;
+}
+.pricing{
+    background-color: rgb(245, 244, 244);
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.pricing .card{
+    border-radius: 10px;
+    
+}
+.pricing .card .PricingType{
+    padding: 10px 30px;
+    background-color: #ed164f;
+    color: #fff;
+    border-radius: 0 0 10px 10px;
+    margin: auto;
+    font-weight: 600;
+}
+.pricing .card .card-title{
+    font-weight: 700;
+    font-size: 30px;
+}
+.pricing .card .card-title span{
+    color: rgb(107, 106, 106); 
+    font-size: 25px;
+    font-weight: 400;
+}
+.pricing .card .line2{
+    width: 100%;
+    height: 1px;
+    background-color: rgb(107, 106, 106);
+    margin-top: 20px;
+    margin-bottom: 30px;
+    transition: all .5s;
+}
+.pricing .card .btn{
+    font-weight: 600;
+    background-color: transparent;
+    border: 2px solid #ed164f;
+    border-radius: 40px;
+    padding: 10px 40px;
+    color: #ed164f;
+    transition: all .5s;
+}
+.pricing .card:hover .line2{
+    background-color: #ed164f;
+    height: 2px;
+}
+.pricing .card:hover .btn{
+    color: #fff;
+    background-color: #ed164f;
+}
+.clients{
+    padding-bottom: 5%;
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(../img/bg-clients.jpg);
+    background-size: 100% 100%;
+    padding-top: 10%;
+}
+
+.clients .card{
+    color: white;
+    background-color: transparent;
+    text-align: center;
+  margin: auto;
+}
+.clients .card img{
+    margin: auto;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+}
+.clients .card .card-body p{
+    font-style: italic;
+    opacity: 0.8;
+}
+.clients .card .card-body h3{
+    color: #ed164f;
+}
+.owl-theme .owl-dots .owl-dot span {
+    
+    background: #ed164f;
+  }
+  .blog{
+      margin-top: 100px;
+  }
+  .blog .card .card-title{
+font-weight: 600;
+  }
+  .blog .card .card-text{
+      font-style: italic;
+  }
+
+  .blog .card .btn3{
+      padding: 10px 30px;
+      border-radius: 30px;
+      font-weight: 600;
+      background-color: transparent;
+      color: #ed164f;
+      border: 3px solid #ed164f;
+      transition: all .3s;
+  }
+ .BlogLine{
+      width: 100%;
+      height: 2px;
+      background-color: #ed164f;
+      display: none;
+      transition: all .3s;
+  }
+  .blog .card:hover .btn3{
+    background-color: #ed164f;
+    color: #fff;
+
+  }
+  .blog .card:hover .BlogLine{
+      display: block;
+  }
+.blog .card span{
+    margin-right: 20px;
+    color: rgb(194, 193, 193);
+    
+}
+.blog .card p{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    line-height: 34px;
+}
+.GetTouch{
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.GetTouch .container{
+    text-align: center;
+}
+.GetTouch .container .imoContact{
+    font-size: 30px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+.GetTouch .container p{
+    font-weight: 600;
+    color: rgb(116, 114, 114);
+}
+
+.GetTouch .ContactBtn{
+    margin: auto;
+    margin-top: 20px;
+    padding: 15px 50px;
+    background-color: #ed164f;
+    color: #fff;
+    border-radius: 30px;
+    border: 2px solid #ed164f;
+}
+.footer{
+    padding-top: 50px;
+   
+    color: #fff;
+    
+    background-color: #2d343e;
+}
+.footer .lineFooter{
+    width: 70px;
+    height: 3px;
+    border-radius: 2px;
+    border: none;
+    background-color: #ed164f;
+    margin-bottom: 50px;
+}
+.footer .FooterBtn{
+    margin-top: 20px;
+    padding: 15px 40px;
+    background-color: transparent;
+    border: 2px solid #fff;
+    border-radius: 30px;
+    color: #fff;
+    font-weight: 500;
+}
+.footer ul li{
+    list-style: none;
+ margin-bottom: 10px;
+}
+.footer ul li a{
+    text-decoration: none;
+    color: #fff;
+    transition: all .3s;
+}
+.footer ul li a:hover{
+    color: #ed164f;
+}
+.footer .col-sm-4{
+    margin-bottom: 10px;
+    
+}
+.footer img{
+    border-radius: 5px;
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+.footer .bottomFooter{
+    margin-top: 20px;
+    padding: 20px;
+    text-align: center;
+    background-color: #262c35;
+    color: #fff;
+}
+.footer .bottomFooter span{
+    color: #ed164f;
+}
