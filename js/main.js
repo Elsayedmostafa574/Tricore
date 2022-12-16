@@ -105,3 +105,5 @@ $("#owl-carousel4").owlCarousel({
         }
     }
 });
+
+new WOW().init();
